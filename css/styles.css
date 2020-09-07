@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+    background: #649173;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DBD5A4, #649173);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DBD5A4, #649173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.navigation{
+    background-color: black;
+    text-align: right;
+    /* margin-bottom: 40px ; */
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin: 25px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    border-left: 4px solid white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover{
+    text-decoration: none;
+    background-color: blanchedalmond;
+    color: black;
+}
+
+
+footer{
+    background-color: gray;
+    align-self: flex-end;
+    display: flex;
+}
+
+#about{
+    text-align: justify;
+}
+
+.title-eagle{
+    border: none;
+}
+.title-eagle:hover{
+    border: none;
+    color: crimson;
+}
+@media ( max-width: 800px ) {
+    .aguilaBounce {
+    height: 200px;
+    width: 300px;
+    }
+    img{
+        height: 100%;
+        width: 100%;
+        
+    }
+    .carousel{
+        height: 400px;
+        width: 100%;
+    }  
+
+
+}
+.carousel-item{
+    min-width: 600px;
+    min-height: 800px;
+}
+.animate__bounceIn{
+    margin-bottom: 80px;
+}
+
+footer{
+    margin-top: 370px;
+}
+
+.h3corti{
+    font-size: 23px;
+}
+.cabezera{
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid whitesmoke;
+}
+
+
+.btn-info{
+    margin: 30px;
+    margin-left: 50%;
+    padding: 18px;
+}
+
+#intentos{
+    border: 1px dotted red;
+}
+.adivinanza-color{
+    color: #614f29;
+}
+strong{
+    font-size: 35px;
+    text-align: left;
+}
+
+.alert{
+    padding-top: 20px;
+}
+
+.borderUp{
+    border-top: 2px solid whitesmoke;
+}
+
+
+.carousel .slide{
+    margin: 80px;
+}
+h1{
+    padding-top: 120px;
+}
+h2 {
+    text-align: center;
+}
+h6{
+    text-align: center;
+}
+
+.social-media-buttons{
+ margin-left: auto;
+}
+
+.fa {
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+/* Add a hover effect if you want */
+.fa:hover {
+opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-instagram {
+background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+color: white;
+}
